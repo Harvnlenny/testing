@@ -21,6 +21,6 @@ describe('Protractor Demo App', function() {
     add(3, 4);
 
     expect(history.last().getText()).toContain('1 + 2');
-    expect(history.first().getText()).toContain('foo'); // This is wrong!
+    expect(history.first().getText()).toContain('3 + 4'); // This is wrong!
   });
 });
